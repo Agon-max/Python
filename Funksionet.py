@@ -63,7 +63,7 @@ def siperfaqjaEKatrorit(brinja):
     return Siperfaqja
 
 katrori = siperfaqjaEKatrorit(5)
-print("Siperfaqja e katrorit eshte: ", katrori)
+print("Siperfaqja e katrorit eshte: ", katrori,"m2")
 
 
 def siperfaqjaEDrejtekendshit(brinjaA,brinjaB):
@@ -71,11 +71,22 @@ def siperfaqjaEDrejtekendshit(brinjaA,brinjaB):
     return Siperfaqja
 
 drejtkendeshi = siperfaqjaEDrejtekendshit(5,5)
-print("Siperfaqja e drejtkendeshit eshte: ", drejtkendeshi)
+print("Siperfaqja e drejtkendeshit eshte: ", drejtkendeshi,"m2")
 
 def siperfaqjaETrekendeshit(brinjaA,brinjaB):
     Siperfaqja = (brinjaA * brinjaB)/2
     return Siperfaqja
 
-trekendeshi = siperfaqjaETrekendeshit(5,5)
-print("Siperfaqja e trekendeshit eshte: ", trekendeshi)
+trekendeshi = siperfaqjaETrekendeshit(5,3)
+print("Siperfaqja e trekendeshit eshte: ", trekendeshi,"m2")
+
+
+# Statement PASS
+# Statement PASS sherben si nje mbajtje per kodin ne te ardhmen, per te 
+# parandaluar errors prej blloqeve me kode te zbrazeta (EMPTY)
+
+def funksioniNeZhvillim():
+
+    pass
+# Kjo ekzekutohet jashte çdo aksioni ose jashte çdo errori
+funksioniNeZhvillim()
