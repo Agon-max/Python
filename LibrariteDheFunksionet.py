@@ -71,7 +71,8 @@ funksioniArbitrar(5,3)
 # Ne raste tjera kemi, RecursionError.
 
 def faktorieli(x):
-    """Ky funksion eshte rekurziv pasi 
+    """
+    Ky funksion eshte rekurziv pasi 
     qe per te gjetur faktorielin 
     therret vetveten.
     """
